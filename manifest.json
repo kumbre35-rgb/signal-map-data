@@ -1,6 +1,6 @@
 {
-  "built": "2026-09-10T20:50:52.954Z",
-  "base": "https://cdn.jsdelivr.net/gh/kumbre35-rgb/signal-map-data@25182cc5245c8eb7647861a450ab66ff8cb31377/",
+  "built": "2026-09-10T20:57:22.827Z",
+  "base": "https://cdn.jsdelivr.net/gh/kumbre35-rgb/signal-map-data@724a7355431d88ff8a9f33eb10816e1aca91dbde/",
   "chunks": {
     "AD": "974e3127",
     "AE": "29d36883",
@@ -197,7 +197,9 @@
     "ZA": "85bf0ac2",
     "ZW": "2d93425e"
   },
-  "region": {},
+  "region": {
+    "US": "c8ef10f7"
+  },
   "counts": {
     "AD": 3,
     "AE": 109,

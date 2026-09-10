@@ -62,6 +62,7 @@ With the Signal Map server running locally:
 
 ```
 npm run import        # rewrites catalog/ from http://127.0.0.1:4200/api/tv
+npm run heal          # working alternate first; borrow links for dead channels
 npm run validate
 git diff --stat       # review what changed, then commit
 ```

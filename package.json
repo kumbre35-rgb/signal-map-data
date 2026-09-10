@@ -3,10 +3,13 @@
   "private": true,
   "type": "module",
   "description": "Channel catalog for Signal Map: text links + metadata, served to the apps via jsDelivr. Edit the JSON, commit, done.",
-  "engines": { "node": ">=20" },
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "validate": "node scripts/validate.mjs",
     "build": "node scripts/build-manifest.mjs",
-    "import": "node scripts/import-from-server.mjs"
+    "import": "node scripts/import-from-server.mjs",
+    "heal": "node scripts/heal.mjs"
   }
 }

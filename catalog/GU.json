@@ -1,0 +1,3 @@
+[
+{"id":"iptv:Star101FM.gu@SD","src":"iptv","n":"Star 101 FM","la":13.04679,"lo":144.82851,"c":"GU","place":"Guam","lvl":"country","cat":["music"],"lang":["eng"],"web":"https://star101.gu/","streams":[{"u":"https://live2.tensila.com/knut-v-1.choice/hls/master.m3u8","t":"Star 101 FM (KNUT Guam)"}]}
+]

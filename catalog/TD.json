@@ -1,0 +1,5 @@
+[
+{"id":"freetv:Tchad24.td:TD","src":"freetv","n":"Tchad 24","la":14.90007,"lo":19.54114,"c":"TD","place":"Chad","lvl":"country","logo":"https://www.lyngsat.com/logo/tv/tt/tchad-24-td.png","web":"https://github.com/Free-TV/IPTV","net":"Free-TV list","streams":[{"u":"http://102.131.58.110/out_1/index.m3u8","t":"Free-TV"}]},
+{"id":"freetv:TeleTchad.td:TD","src":"freetv","n":"Télé Tchad","la":15.96285,"lo":19.40629,"c":"TD","place":"Chad","lvl":"country","logo":"https://upload.wikimedia.org/wikipedia/fr/b/b6/Logo_T%C3%A9l%C3%A9_Tchad.png","web":"https://github.com/Free-TV/IPTV","net":"Free-TV list","desc":"Note: geo-blocked outside its country","streams":[{"u":"https://strhlslb01.streamakaci.tv/str_tchad_tchad/str_tchad_multi/playlist.m3u8","t":"Free-TV"}]},
+{"id":"iptv:TeleTchad.td@SD","src":"iptv","n":"Tele Tchad","la":15.25477,"lo":19.49062,"c":"TD","place":"Chad","lvl":"country","cat":["general"],"lang":["fra","ara"],"web":"https://onama.td/","streams":[{"u":"https://strhlslb01.streamakaci.tv/str_tchad_tchad/str_tchad_multi/playlist.m3u8","q":"1080p","t":"Tele Tchad"},{"u":"http://176.65.153.84:7013/play/a069/index.m3u8","t":"Tele Tchad"}]}
+]

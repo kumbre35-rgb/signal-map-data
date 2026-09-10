@@ -1,0 +1,3 @@
+[
+{"id":"iptv:ERiTV1.er@SD","src":"iptv","n":"ERi-TV 1","la":15.91022,"lo":38.72503,"c":"ER","place":"Eritrea","lvl":"country","cat":["general"],"lang":["tir","tig","ara","eng"],"web":"https://www.dendenmedia.com/","streams":[{"u":"https://jmc-live.ercdn.net/eritreatv/eritreatv.m3u8","q":"576p","t":"ERi-TV 1"}]}
+]

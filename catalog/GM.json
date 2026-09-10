@@ -1,0 +1,4 @@
+[
+{"id":"iptv:QTVGambia.gm@SD","src":"iptv","n":"QTV Gambia","la":13.7802,"lo":-16.49185,"c":"GM","place":"Gambia","lvl":"country","cat":["general"],"lang":["eng","fuc","mnk","wol"],"web":"http://qtv.gm/","streams":[{"u":"https://player.qtv.gm/hls/live.stream.m3u8","q":"720p","t":"QTV Gambia"}]},
+{"id":"tvg:eyeafricatv.gm","src":"tvg","n":"Eye Africa TV","la":13.06258,"lo":-15.51964,"c":"GM","place":"GM","lvl":"country","cat":["news"],"lang":["eng"],"web":"https://tv.garden","net":"TV Garden","streams":[{"u":"https://ythls.armelin.one/channel/UCLYggzo8r31yYj3mjZDrSrA.m3u8","t":"TV Garden"}]}
+]

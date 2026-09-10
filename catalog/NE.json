@@ -1,0 +1,6 @@
+[
+{"id":"iptv:DouniaTV.ne@SD","src":"iptv","n":"Dounia TV","la":17.13625,"lo":9.76381,"c":"NE","place":"Niger","lvl":"country","cat":["general"],"lang":["fra","hau"],"streams":[{"u":"https://live20.bozztv.com/dvrfl06/astv/astv-douniatv/index.m3u8","t":"Dounia TV"}]},
+{"id":"iptv:SaraouniaTV.ne@SD","src":"iptv","n":"Saraounia TV","la":16.03172,"lo":10.40909,"c":"NE","place":"Niger","lvl":"country","cat":["news"],"lang":["fra"],"streams":[{"u":"https://live20.bozztv.com/dvrfl06/astv/astv-saraouna/index.m3u8","t":"Saraounia TV"}]},
+{"id":"iptv:TalTV.ne@SD","src":"iptv","n":"Tal TV","la":16.39131,"lo":9.16749,"c":"NE","place":"Niger","lvl":"country","cat":["entertainment"],"lang":["fra"],"web":"https://taltv.rtn.ne/","streams":[{"u":"https://mediaserver1.castpin.com/hls/taltv/index.m3u8","q":"1080p","t":"Tal TV"}]},
+{"id":"iptv:TeleSahel.ne@SD","src":"iptv","n":"Tele Sahel","la":16.93545,"lo":9.81043,"c":"NE","place":"Niger","lvl":"country","cat":["general"],"lang":["fra","hau","dje","tmh"],"web":"http://www.ortn.ne/","streams":[{"u":"https://mediaserver1.castpin.com/hls/telesahel/index.m3u8","q":"1080p","t":"Tele Sahel"},{"u":"https://iptv--iptv.repl.co/French/tele_sahel","t":"TV Garden"}]}
+]

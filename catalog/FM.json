@@ -1,0 +1,4 @@
+[
+{"id":"tvg:fsmcongress.fm","src":"tvg","n":"FSM Congress","la":6.99449,"lo":158.36892,"c":"FM","place":"FM","lvl":"country","cat":["legislative"],"lang":["eng"],"web":"https://tv.garden","net":"TV Garden","streams":[{"u":"https://ythls.armelin.one/channel/UCo_dc4xUi_eA5poaFqHeGpA.m3u8","t":"TV Garden"}]},
+{"id":"tvg:v6ah.fm","src":"tvg","n":"V6AH","la":6.43677,"lo":157.64265,"c":"FM","place":"FM","lvl":"country","cat":["general"],"lang":["eng"],"web":"https://tv.garden","net":"TV Garden","streams":[{"u":"https://ythls.armelin.one/channel/UC103DbQcwFPuaCF4pleV7rw.m3u8","t":"TV Garden"}]}
+]

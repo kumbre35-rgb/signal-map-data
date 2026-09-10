@@ -1,0 +1,5 @@
+[
+{"id":"freetv:AndorraTV.ad:AD","src":"freetv","n":"Andorra TV","la":42.0518,"lo":1.26338,"c":"AD","place":"Andorra","lvl":"country","logo":"https://upload.wikimedia.org/wikipedia/commons/3/32/Logo_Andorra_Televisi%C3%B3.png","web":"https://github.com/Free-TV/IPTV","net":"Free-TV list","streams":[{"u":"https://livesg1.rtva.hiway.media/11a6d6f4-ee13-47c7-9c27-7313cf5424e2/manifest.m3u8","t":"Free-TV"}]},
+{"id":"iptv:AndorraTV.ad@SD","src":"iptv","n":"Andorra TV","la":42.7968,"lo":2.33304,"c":"AD","place":"Andorra","lvl":"country","cat":["general"],"lang":["cat"],"web":"https://www.andorradifusio.ad/","streams":[{"u":"https://livesg1.rtva.hiway.media/11a6d6f4-ee13-47c7-9c27-7313cf5424e2/manifest.m3u8","q":"1080p","t":"Andorra TV"},{"u":"https://videos.rtva.ad/live/rtva/playlist.m3u8","t":"TV Garden"}]},
+{"id":"tvg:loriatv.ad","src":"tvg","n":"Loria TV","la":42.72829,"lo":0.71761,"c":"AD","place":"AD","lvl":"country","cat":["general"],"lang":["cat"],"web":"https://tv.garden","net":"TV Garden","streams":[{"u":"https://ythls.armelin.one/channel/UCCCnrECJpv84QKM4olodZOQ.m3u8","t":"TV Garden"}]}
+]

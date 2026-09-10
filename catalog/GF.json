@@ -1,0 +1,4 @@
+[
+{"id":"iptv:TelePeyi.gf@SD","src":"iptv","n":"Tele Peyi","la":4.03512,"lo":-52.95462,"c":"GF","place":"French Guiana","lvl":"country","cat":["general"],"lang":["fra"],"web":"https://www.peyiguyane.com/","streams":[{"u":"https://edge20.vedge.infomaniak.com/livecast/ik:33dm06/manifest.m3u8","q":"720p","t":"Télé Péyi"}]},
+{"id":"tvg:yanahitstv.gf","src":"tvg","n":"Yanahits TV","la":3.48528,"lo":-53.31743,"c":"GF","place":"GF","lvl":"country","cat":["music"],"lang":["fra"],"web":"https://tv.garden","net":"TV Garden","streams":[{"u":"https://rpn3.bozztv.com/ssh101/ssh101/clip/playlist.m3u8","t":"TV Garden"}]}
+]

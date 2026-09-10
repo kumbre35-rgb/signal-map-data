@@ -1,0 +1,5 @@
+[
+{"id":"iptv:CaribbeanHot7TV.lc@SD","src":"iptv","n":"Caribbean Hot 7 TV","la":13.32731,"lo":-60.81961,"c":"LC","place":"Saint Lucia","lvl":"country","cat":["general"],"lang":["eng"],"web":"https://www.caribbeanhottv.com/","streams":[{"u":"https://586a9edea75f1.streamlock.net/caribbeanhot7tv/ch7-1.stream/playlist.m3u8","q":"720p","t":"Caribbean Hot 7 TV"},{"u":"https://vids1.intacs.com/caribbeanhot7tv/ch7-1.stream/playlist.m3u8","t":"Caribbean Hot 7 TV"}]},
+{"id":"iptv:DBSTV.lc@SD","src":"iptv","n":"DBS TV","la":13.81267,"lo":-61.1133,"c":"LC","place":"Saint Lucia","lvl":"country","cat":["general"],"lang":["eng"],"web":"https://dbstvstlucia.com/","streams":[{"u":"https://stream.dbstvstlucia.com/hls/dbstv_main.m3u8","t":"DBS TV"}]},
+{"id":"tvg:governmentofsaintlucia.lc","src":"tvg","n":"Government of Saint Lucia","la":13.97059,"lo":-61.49811,"c":"LC","place":"LC","lvl":"country","cat":["legislative"],"lang":["eng"],"web":"https://tv.garden","net":"TV Garden","streams":[{"u":"https://ythls.armelin.one/channel/UC4al3A_gysYEIzAM1L2qZbg.m3u8","t":"TV Garden"}]}
+]

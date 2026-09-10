@@ -1,0 +1,6 @@
+[
+{"id":"iptv:AlAlamiya2.sd@SD","src":"iptv","n":"Al Alamiya 2","la":14.65885,"lo":31.98149,"c":"SD","place":"Sudan","lvl":"country","cat":["education"],"lang":["ara"],"streams":[{"u":"http://82.212.74.98:8000/live/7815.m3u8","t":"Al Alamiya 2"}]},
+{"id":"iptv:DabangaTV.sd@SD","src":"iptv","n":"Dabanga TV","la":15.14101,"lo":32.61758,"c":"SD","place":"Sudan","lvl":"country","cat":["news","education"],"lang":["ara"],"web":"https://www.dabangasudan.org/","streams":[{"u":"https://hls.dabangasudan.org/hls/stream.m3u8","q":"1080p","t":"Dabanga TV"},{"u":"https://cdn-cf.dabangasudan.org/hls/stream.m3u8","t":"TV Garden"}]},
+{"id":"iptv:SudanTV.sd@SD","src":"iptv","n":"Sudan TV","la":15.14233,"lo":31.24193,"c":"SD","place":"Sudan","lvl":"country","lang":["ara"],"streams":[{"u":"https://cdn-globecast.akamaized.net/live/eds/sudan_tv/hls_roku/index.m3u8","q":"360p","t":"Sudan TV"}]},
+{"id":"tvg:taybatv.sd","src":"tvg","n":"Tayba TV","la":15.72738,"lo":32.69733,"c":"SD","place":"SD","lvl":"country","cat":["general"],"lang":["ara"],"web":"https://tv.garden","net":"TV Garden","streams":[{"u":"https://mn-nl.mncdn.com/tayba/live/playlist.m3u8","t":"TV Garden"}]}
+]

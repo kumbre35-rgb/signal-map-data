@@ -1,0 +1,5 @@
+[
+{"id":"iptv:NBC1.na@SD","src":"iptv","n":"NBC 1","la":-22.80413,"lo":17.81111,"c":"NA","place":"Namibia","lvl":"country","cat":["general"],"lang":["eng","afr","deu"],"web":"https://www.nbc.na/","streams":[{"u":"https://hls2.nbcplus.na/hls/high_nbc1.m3u8","t":"NBC 1"}]},
+{"id":"iptv:TjilTV.na@SD","src":"iptv","n":"Tjil TV","la":-22.9261,"lo":17.50691,"c":"NA","place":"Namibia","lvl":"country","cat":["music"],"lang":["eng","afr"],"web":"https://oneuptwo.com/tjilTV","streams":[{"u":"https://hls-1zdhtxpm-livepush.akamaized.net/live_cdn/nsM12Xw0C1xXdJ/em0Wx71z-ec6EWJb/rewind-3600.m3u8","q":"720p","t":"Tjil TV"}]},
+{"id":"tvg:ntv.na","src":"tvg","n":"NTV","la":-24.05334,"lo":17.25369,"c":"NA","place":"NA","lvl":"country","cat":["general"],"lang":["eng"],"web":"https://tv.garden","net":"TV Garden","streams":[{"u":"https://s-pl-01.mediatool.tv/playout/ntv-abr/index.m3u8","t":"TV Garden"}]}
+]

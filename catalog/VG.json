@@ -1,0 +1,4 @@
+[
+{"id":"iptv:CBNGospel.vg@SD","src":"iptv","n":"CBN Gospel","la":18.56172,"lo":-64.96352,"c":"VG","place":"British Virgin Islands","lvl":"country","cat":["religious"],"lang":["eng"],"web":"https://www.cbngospel.com/","streams":[{"u":"https://59d39900ebfb8.streamlock.net/ccbn/ccbn/playlist.m3u8","q":"720p","t":"CBN Gospel"}]},
+{"id":"iptv:CBNTV.vg@SD","src":"iptv","n":"CBN TV","la":18.39204,"lo":-64.53883,"c":"VG","place":"British Virgin Islands","lvl":"country","cat":["general"],"lang":["eng"],"web":"https://www.cbnvirginislands.com/","streams":[{"u":"https://5790d294af2dc.streamlock.net/CBNVI/CBNVI/playlist.m3u8","q":"720p","t":"CBN TV"}]}
+]

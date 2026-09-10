@@ -1,0 +1,4 @@
+[
+{"id":"iptv:CubavisionInternacional.cu@SD","src":"iptv","n":"Cubavision Internacional","la":21.69872,"lo":-80.4437,"c":"CU","place":"Cuba","lvl":"country","cat":["general"],"lang":["spa"],"web":"https://www.cvi.icrt.cu/","net":"ICRT","streams":[{"u":"https://cdn.teveo.cu/live/video/A36pWmuWvZBQskuZ/ngrp:gppfydfzpSUn9Udy.stream/playlist.m3u8","q":"720p","ua":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","ref":"https://teveo.cu/","t":"Cubavision Internacional"}]},
+{"id":"iptv:PrensaLatinaTV.cu@SD","src":"iptv","n":"Prensa Latina TV","la":21.23905,"lo":-79.82163,"c":"CU","place":"Cuba","lvl":"country","cat":["news"],"lang":["spa"],"web":"https://www.prensa-latina.cu/","streams":[{"u":"https://eu1.servers10.com:8081/8192/index.m3u8","q":"1080p","t":"Prensa Latina TV"}]}
+]

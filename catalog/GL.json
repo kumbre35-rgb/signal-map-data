@@ -1,0 +1,6 @@
+[
+{"id":"freetv:KNR1.gl:GL","src":"freetv","n":"KNR1 Ⓨ","la":72.00526,"lo":-40.00408,"c":"GL","place":"Greenland","lvl":"country","logo":"https://i.imgur.com/8Pf5SJb.png","web":"https://github.com/Free-TV/IPTV","net":"Free-TV list","desc":"Note: may be geo-restricted","streams":[{"u":"https://www.youtube.com/@KNRgreenland/live","t":"Free-TV"}]},
+{"id":"freetv:KNR2.gl:GL","src":"freetv","n":"KNR2 Ⓨ","la":71.59723,"lo":-37.30384,"c":"GL","place":"Greenland","lvl":"country","logo":"https://i.imgur.com/8Pf5SJb.png","web":"https://github.com/Free-TV/IPTV","net":"Free-TV list","streams":[{"u":"https://www.youtube.com/@nutaarsiassat/live","t":"Free-TV"}]},
+{"id":"tvg:knr1.gl","src":"tvg","n":"KNR1","la":72.05922,"lo":-40.21815,"c":"GL","place":"GL","lvl":"country","cat":["general"],"lang":["kal"],"web":"https://tv.garden","net":"TV Garden","streams":[{"u":"https://ythls.armelin.one/channel/UCIjOAtv53RHerlfl98fZmcQ.m3u8","t":"TV Garden"}]},
+{"id":"tvg:knr2.gl","src":"tvg","n":"KNR2","la":71.71579,"lo":-39.49438,"c":"GL","place":"GL","lvl":"country","cat":["general"],"lang":["kal"],"web":"https://tv.garden","net":"TV Garden","streams":[{"u":"https://ythls.armelin.one/channel/UC6D225YIMCwVBiBktEeV-vQ.m3u8","t":"TV Garden"}]}
+]

@@ -1,0 +1,5 @@
+[
+{"id":"iptv:NevisTelevision.kn@SD","src":"iptv","n":"Nevis Television","la":17.24967,"lo":-62.68107,"c":"KN","place":"Saint Kitts and Nevis","lvl":"country","cat":["general"],"lang":["eng"],"web":"https://www.nevistvonline.com/","streams":[{"u":"https://media.slactech.com:1936/NTvDirect/ngrp:NTvDirect_all/playlist.m3u8","t":"Nevis Television"}]},
+{"id":"iptv:TelevisionCaribbean.kn@SD","src":"iptv","n":"Television Caribbean","la":17.46897,"lo":-62.41152,"c":"KN","place":"Saint Kitts and Nevis","lvl":"country","cat":["general"],"lang":["eng"],"web":"https://www.tvcplus.live/","streams":[{"u":"https://live.kingdom-tv.com:3545/stream/play.m3u8","q":"1080p","t":"Television Caribbean"}]},
+{"id":"iptv:ZIZTV.kn@SD","src":"iptv","n":"ZIZ TV","la":16.62356,"lo":-62.75001,"c":"KN","place":"Saint Kitts and Nevis","lvl":"country","cat":["general"],"lang":["eng"],"web":"https://zizonline.com/","streams":[{"u":"https://media.slactech.com:1936/ZIZDirect/ZIZDirect/playlist.m3u8","q":"720p","t":"ZIZ TV"}]}
+]

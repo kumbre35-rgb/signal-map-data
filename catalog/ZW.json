@@ -1,0 +1,5 @@
+[
+{"id":"iptv:YadahTV.zw@SD","src":"iptv","n":"Yadah TV","la":-19.8601,"lo":29.32443,"c":"ZW","place":"Zimbabwe","lvl":"country","cat":["religious"],"lang":["eng"],"web":"https://www.yadahtv.co/","streams":[{"u":"https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_018/Stream/playlist.m3u8","q":"576p","t":"Yadah TV"},{"u":"https://webstreaming-2.viewmedia.tv/web_018/Stream/playlist.m3u8","t":"TV Garden"}]},
+{"id":"tvg:abjtv.zw","src":"tvg","n":"ABJ TV","la":-18.81614,"lo":30.27979,"c":"ZW","place":"ZW","lvl":"country","cat":["religious"],"lang":["eng"],"web":"https://tv.garden","net":"TV Garden","streams":[{"u":"https://ythls.armelin.one/channel/UC82ZYZirnzkJ4Spek8Z8T6w.m3u8","t":"TV Garden"}]},
+{"id":"tvg:zbcnews.zw","src":"tvg","n":"ZBC News","la":-18.7373,"lo":30.36472,"c":"ZW","place":"ZW","lvl":"country","cat":["news"],"lang":["eng"],"web":"https://tv.garden","net":"TV Garden","streams":[{"u":"https://ythls.armelin.one/channel/UCxiW1iTMYgjyh7Qgkiyj2PQ.m3u8","t":"TV Garden"}]}
+]

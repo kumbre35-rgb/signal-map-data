@@ -1,0 +1,6 @@
+[
+{"id":"tvg:gabon1ere.ga","src":"tvg","n":"Gabon 1ere","la":-1.15435,"lo":12.30289,"c":"GA","place":"GA","lvl":"country","cat":["general"],"lang":["fra"],"web":"https://tv.garden","net":"TV Garden","streams":[{"u":"https://vps73918.serveur-vps.net/hls/ggtv.m3u8","t":"TV Garden"}]},
+{"id":"tvg:gabon24.ga","src":"tvg","n":"Gabon 24","la":-0.64241,"lo":11.67585,"c":"GA","place":"GA","lvl":"country","cat":["news"],"lang":["fra"],"web":"https://tv.garden","net":"TV Garden","streams":[{"u":"https://ythls.armelin.one/channel/UC7E__Dp9FSIgt6iMa5_uvlw.m3u8","t":"TV Garden"}]},
+{"id":"tvg:nourtv.ga","src":"tvg","n":"Nour TV","la":-0.64484,"lo":11.46204,"c":"GA","place":"GA","lvl":"country","cat":["religious"],"lang":["fra"],"web":"https://tv.garden","net":"TV Garden","streams":[{"u":"https://helga.iptv2022.com/sh/Nour_tv/index.m3u8","t":"TV Garden"}]},
+{"id":"tvg:proximitewebtv.ga","src":"tvg","n":"Proximite Web TV","la":0.06633,"lo":11.14561,"c":"GA","place":"GA","lvl":"country","cat":["general"],"lang":["fra"],"web":"https://tv.garden","net":"TV Garden","streams":[{"u":"https://helga.iptv2022.com/sh/PROXIMITE_WEB_TV/index.m3u8","t":"TV Garden"}]}
+]

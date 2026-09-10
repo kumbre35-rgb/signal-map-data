@@ -1,0 +1,5 @@
+[
+{"id":"iptv:TVCidade.cv@SD","src":"iptv","n":"TV Cidade","la":16.16384,"lo":-24.0564,"c":"CV","place":"Cape Verde","lvl":"country","cat":["music"],"lang":["por"],"web":"https://www.cidadefm.cv/","streams":[{"u":"https://stmv1.srvif.com/tvcidade/tvcidade/playlist.m3u8","t":"TV Cidade"}]},
+{"id":"tvg:radiotvsalone.cv","src":"tvg","n":"Radio TV Sal One","la":15.78636,"lo":-24.29668,"c":"CV","place":"CV","lvl":"country","cat":["music"],"lang":["por"],"web":"https://tv.garden","net":"TV Garden","streams":[{"u":"https://lon.rtsp.me/r3ZnG6WN2HIRxPARhAirIQ/1713628621/hls/9QdykDAy.m3u8","t":"TV Garden"}]},
+{"id":"tvg:tiver.cv","src":"tvg","n":"TIVER","la":15.80314,"lo":-23.72642,"c":"CV","place":"CV","lvl":"country","cat":["general"],"lang":["por"],"web":"https://tv.garden","net":"TV Garden","streams":[{"u":"https://cdn.live.br1.jmvstream.com/w/AVJ-13550/playlist/playlist.m3u8","t":"TV Garden"}]}
+]

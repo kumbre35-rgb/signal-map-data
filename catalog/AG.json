@@ -1,0 +1,4 @@
+[
+{"id":"iptv:PointeTV.ag@SD","src":"iptv","n":"Pointe TV","la":17.21652,"lo":-61.58478,"c":"AG","place":"Antigua and Barbuda","lvl":"country","cat":["general"],"lang":["eng"],"web":"https://pointville.ag/","streams":[{"u":"https://tv.pointville.ag/hls/mystream.m3u8","t":"Pointe TV"}]},
+{"id":"tvg:abstv.ag","src":"tvg","n":"ABS TV","la":16.87975,"lo":-62.05075,"c":"AG","place":"AG","lvl":"country","cat":["general"],"lang":["eng"],"web":"https://tv.garden","net":"TV Garden","streams":[{"u":"https://query-streamlink.herokuapp.com/iptv-query?streaming-ip=https://www.twitch.tv/absliveantigua3","t":"TV Garden"}]}
+]

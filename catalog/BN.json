@@ -1,0 +1,5 @@
+[
+{"id":"iptv:RTBGo.bn@SD","src":"iptv","n":"RTB Go","la":4.50541,"lo":114.7622,"c":"BN","place":"Brunei","lvl":"country","cat":["general"],"lang":["msa","eng"],"web":"https://www.rtbgo.bn/","streams":[{"u":"https://d1211whpimeups.cloudfront.net/smil:rtbgo/playlist.m3u8","q":"720p","t":"RTB Go"}]},
+{"id":"iptv:RTBSukmaindera.bn@SD","src":"iptv","n":"RTB Sukmaindera","la":4.42504,"lo":114.54961,"c":"BN","place":"Brunei","lvl":"country","cat":["general"],"lang":["msa","eng"],"web":"https://www.rtbgo.bn/Sukmaindera","streams":[{"u":"https://d1211whpimeups.cloudfront.net/smil:rtb1/playlist.m3u8","q":"720p","t":"RTB Sukmaindera"}]},
+{"id":"tvg:rtbaneka.bn","src":"tvg","n":"RTB Aneka","la":4.11652,"lo":114.66679,"c":"BN","place":"BN","lvl":"country","cat":["general"],"lang":["eng"],"web":"https://tv.garden","net":"TV Garden","streams":[{"u":"https://d1211whpimeups.cloudfront.net/smil:rtb2/playlist.m3u8","t":"TV Garden"}]}
+]

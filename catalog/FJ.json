@@ -1,0 +1,3 @@
+[
+{"id":"tvg:fijitv.fj","src":"tvg","n":"Fiji TV","la":-18.35309,"lo":177.49274,"c":"FJ","place":"FJ","lvl":"country","cat":["general"],"lang":["eng"],"web":"https://tv.garden","net":"TV Garden","streams":[{"u":"https://api.new.livestream.com/accounts/19514369/events/6947821/live.m3u8","t":"TV Garden"}]}
+]

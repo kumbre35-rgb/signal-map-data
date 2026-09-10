@@ -1,0 +1,4 @@
+[
+{"id":"tvg:mbc.mw","src":"tvg","n":"MBC","la":-12.88548,"lo":34.0041,"c":"MW","place":"MW","lvl":"country","cat":["general"],"lang":["eng"],"web":"https://tv.garden","net":"TV Garden","streams":[{"u":"https://glb.bozztv.com/glb/ssh101/mbcmalawi/playlist.m3u8","t":"TV Garden"}]},
+{"id":"tvg:mbc2.mw","src":"tvg","n":"MBC 2","la":-13.13781,"lo":33.55948,"c":"MW","place":"MW","lvl":"country","cat":["entertainment"],"lang":["eng"],"web":"https://tv.garden","net":"TV Garden","streams":[{"u":"https://glb.bozztv.com/glb/ssh101/mbctv2mw/playlist.m3u8","t":"TV Garden"}]}
+]

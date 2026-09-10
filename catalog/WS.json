@@ -1,0 +1,4 @@
+[
+{"id":"iptv:TV3.ws@SD","src":"iptv","n":"TV3","la":-14.27453,"lo":-172.13797,"c":"WS","place":"Samoa","lvl":"country","cat":["general"],"lang":["eng","smo"],"web":"https://www.tv3samoa.net/","streams":[{"u":"https://customer-ezarl905qqr949qs.cloudflarestream.com/856e914abd09e036ce9ce4fa649278b2/manifest/video.m3u8","q":"720p","t":"TV3"}]},
+{"id":"tvg:tv1samoa.ws","src":"tvg","n":"TV1 Samoa","la":-14.3978,"lo":-172.76171,"c":"WS","place":"WS","lvl":"country","cat":["general"],"lang":["eng"],"web":"https://tv.garden","net":"TV Garden","streams":[{"u":"https://anystrument.com:5443/LiveApp/streams/DfywyaY3DcWf1709948634332.m3u8","t":"TV Garden"}]}
+]

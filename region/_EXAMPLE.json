@@ -1,0 +1,5 @@
+{
+  "_comment": "Copy to <CC>.json (e.g. PK.json) to override behaviour in one country. Files starting with _ are ignored.",
+  "dead":   ["iptv:SomeChannel.xx@SD"],
+  "prefer": { "iptv:OtherChannel.xx@SD": 1 }
+}

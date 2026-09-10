@@ -1,0 +1,5 @@
+[
+{"id":"iptv:KKTV.ao@SD","src":"iptv","n":"KK TV","la":-12.02561,"lo":16.82673,"c":"AO","place":"Angola","lvl":"country","cat":["religious"],"lang":["por"],"web":"https://kktv.co.ao/","streams":[{"u":"https://w1.manasat.com/ktv-angola/smil:ktv-angola.smil/playlist.m3u8","q":"1080p","t":"KK TV Angola"}]},
+{"id":"iptv:MuzangalaTV.ao@SD","src":"iptv","n":"Muzangala TV","la":-12.47172,"lo":17.28262,"c":"AO","place":"Angola","lvl":"country","cat":["music"],"lang":["por"],"web":"https://muzangala.tv/","streams":[{"u":"https://5cf4a2c2512a2.streamlock.net/tvmuzangala/tvmuzangala/playlist.m3u8","q":"1080p","t":"Muzangala TV"}]},
+{"id":"iptv:TVZimbo.ao@SD","src":"iptv","n":"TV Zimbo","la":-13.1953,"lo":17.33641,"c":"AO","place":"Angola","lvl":"country","cat":["general"],"lang":["por"],"web":"https://www.tvzimbo.ao/","streams":[{"u":"https://sgn-cdn-video.vods2africa.com/Tv-Zimbo/index.fmp4.m3u8","q":"1080p","t":"TV Zimbo"}]}
+]

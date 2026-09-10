@@ -1,0 +1,5 @@
+[
+{"id":"iptv:SolTV.gq@SD","src":"iptv","n":"SolTV","la":1.45631,"lo":9.96461,"c":"GQ","place":"Equatorial Guinea","lvl":"country","cat":["entertainment"],"lang":["spa"],"web":"https://tv.solmediaeg.com/soltv/","streams":[{"u":"https://stream.solmediaeg.com/soltv/soltv.m3u8","q":"720p","t":"SolTV"}]},
+{"id":"iptv:TVGE.gq@SD","src":"iptv","n":"TVGE","la":1.36565,"lo":9.48406,"c":"GQ","place":"Equatorial Guinea","lvl":"country","cat":["general"],"lang":["spa"],"web":"https://tvgelive.gq/","streams":[{"u":"http://rtmp.ott.mx1.com/tvge1/tvge1/playlist.m3u8","t":"TVGE"}]},
+{"id":"tvg:asongatv.gq","src":"tvg","n":"Asonga TV","la":1.55759,"lo":10.15742,"c":"GQ","place":"GQ","lvl":"country","cat":["general"],"lang":["spa"],"web":"https://tv.garden","net":"TV Garden","streams":[{"u":"https://86060.global.ssl.fastly.net/5ec1843635bd933ad25fe22e/live_e887acc04f7f11edb82e9f05583e4727/index.fmp4.m3u8","t":"TV Garden"}]}
+]

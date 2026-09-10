@@ -1,6 +1,10 @@
 # On every push to main: validate the JSON, rebuild manifest.json pinned to
-# this commit, commit it back, and purge the jsDelivr cache so apps see the
-# new manifest within seconds instead of hours.
+# this commit, commit it back, and publish the manifest to GitHub Pages.
+#
+# Why two hosts: chunk URLs are pinned to a commit sha on jsDelivr, which is
+# immutable and cached forever — ideal. But jsDelivr caches *branch* URLs for
+# 12 hours and its purge is best-effort, so the one file that must be fresh,
+# manifest.json, is served from Pages instead (10-minute cache, honours ETags).
 name: publish
 on:
   push:
@@ -9,14 +13,19 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+  pages: write
+  id-token: write
 concurrency: publish
 jobs:
   publish:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with: { node-version: 20 }
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: 22 }
       - run: node scripts/validate.mjs
       - run: node scripts/build-manifest.mjs --sha "$GITHUB_SHA" --repo "$GITHUB_REPOSITORY"
       - name: commit manifest
@@ -24,8 +33,16 @@ jobs:
           git config user.name  "signal-map-bot"
           git config user.email "actions@users.noreply.github.com"
           git add manifest.json
-          git diff --cached --quiet && echo "manifest unchanged" && exit 0
-          git commit -m "manifest: publish ${GITHUB_SHA::7} [skip ci]"
-          git push
-      - name: purge jsDelivr cache
-        run: curl -fsS "https://purge.jsdelivr.net/gh/${GITHUB_REPOSITORY}@main/manifest.json" || true
+          if git diff --cached --quiet; then echo "manifest unchanged"; else
+            git commit -m "manifest: publish ${GITHUB_SHA::7} [skip ci]"
+            git push
+          fi
+      - name: stage pages site
+        run: mkdir -p _site && cp manifest.json _site/ && cp README.md _site/index.md
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: _site }
+      - id: deploy
+        uses: actions/deploy-pages@v4
+      - name: purge jsDelivr cache (best effort)
+        run: curl -fsS "https://purge.jsdelivr.net/gh/${GITHUB_REPOSITORY}@main/manifest.json" >/dev/null || true

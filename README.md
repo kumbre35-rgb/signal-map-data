@@ -46,8 +46,9 @@ rebuilds `manifest.json`, and purges the CDN. Live within about a minute.
 
 ## What the app fetches
 
-1. `https://cdn.jsdelivr.net/gh/kumbre35-rgb/signal-map-data@main/manifest.json`
-   — ~5 KB. Send `If-None-Match`; a `304` means nothing changed, stop here.
+1. `https://kumbre35-rgb.github.io/signal-map-data/manifest.json`
+   — ~5 KB, served by GitHub Pages (10-minute cache, honours ETags). Send
+   `If-None-Match`; a `304` means nothing changed, stop here.
 2. For each entry in `chunks` whose hash differs from the local copy:
    `<base>catalog/<CC>.json` — only the countries the user actually views.
 3. `<base>region/<CC>.json` for the user's country, when its hash changed.

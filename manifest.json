@@ -1,6 +1,6 @@
 {
-  "built": "2026-09-10T20:45:42.864Z",
-  "base": "https://cdn.jsdelivr.net/gh/kumbre35-rgb/signal-map-data@d0d7c5998f7a3d5c337990196209131adbae4064/",
+  "built": "2026-09-10T20:50:52.954Z",
+  "base": "https://cdn.jsdelivr.net/gh/kumbre35-rgb/signal-map-data@25182cc5245c8eb7647861a450ab66ff8cb31377/",
   "chunks": {
     "AD": "974e3127",
     "AE": "29d36883",
@@ -85,7 +85,6 @@
     "HU": "a0297197",
     "ID": "0e4a0c52",
     "IE": "fa801379",
-    "IL": "0908247a",
     "IN": "81756c46",
     "IQ": "50aec126",
     "IR": "da0cdbcb",
@@ -283,7 +282,6 @@
     "HU": 194,
     "ID": 206,
     "IE": 40,
-    "IL": 38,
     "IN": 968,
     "IQ": 82,
     "IR": 159,

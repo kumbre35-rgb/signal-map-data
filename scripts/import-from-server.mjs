@@ -9,6 +9,7 @@ import { CATALOG, writeChannels } from './lib.mjs';
 
 const BASE = process.argv[2] || 'http://127.0.0.1:4200';
 const RUNTIME_FIELDS = new Set(['ok', 'oki', 'okAt', 'why']); // health verdicts live in region/, not here
+const EXCLUDED = new Set(['IL']); // never published, in any country file
 
 const res = await fetch(`${BASE}/api/tv`, { signal: AbortSignal.timeout(180_000) });
 if (!res.ok) throw new Error(`${BASE}/api/tv → HTTP ${res.status}`);
@@ -27,6 +28,7 @@ const clean = (obj) => {
 
 const byCountry = new Map();
 for (const it of items) {
+  if (EXCLUDED.has(String(it.c || '').toUpperCase())) continue;
   const ch = clean(it);
   ch.streams = (it.streams || []).map(clean).filter((s) => s.u);
   const cc = /^[A-Z]{2}$/.test(it.c || '') ? it.c : 'GLOBAL';

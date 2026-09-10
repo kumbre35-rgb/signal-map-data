@@ -3,12 +3,14 @@
 import path from 'node:path';
 import { CATALOG, REGION, listJson, readJson } from './lib.mjs';
 
+const EXCLUDED = new Set(['IL']); // policy: never published
 const errors = [];
 const err = (file, msg) => errors.push(`${file}: ${msg}`);
 const ids = new Map();
 
 for (const f of listJson(CATALOG)) {
   const cc = path.basename(f, '.json');
+  if (EXCLUDED.has(cc)) { err(f, 'excluded country — delete this file'); continue; }
   let list;
   try { list = readJson(path.join(CATALOG, f)); } catch (e) { err(f, `not valid JSON — ${e.message}`); continue; }
   if (!Array.isArray(list)) { err(f, 'must be a JSON array of channels'); continue; }
@@ -19,6 +21,7 @@ for (const f of listJson(CATALOG)) {
     if (ids.has(ch.id)) err(where, `duplicate id, also in ${ids.get(ch.id)}`); else ids.set(ch.id, f);
     if (typeof ch.n !== 'string' || !ch.n) err(where, 'missing "n" (name)');
     if (cc !== 'GLOBAL' && ch.c !== cc) err(where, `"c" is ${JSON.stringify(ch.c)} but file is ${cc}.json`);
+    if (EXCLUDED.has(String(ch.c || '').toUpperCase())) err(where, 'excluded country');
     if (!Array.isArray(ch.streams)) return err(where, '"streams" must be an array (use [] for embed-only channels)');
     ch.streams.forEach((s, j) => {
       if (!s || typeof s.u !== 'string') return err(where, `streams[${j}] missing "u"`);

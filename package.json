@@ -10,6 +10,7 @@
     "validate": "node scripts/validate.mjs",
     "build": "node scripts/build-manifest.mjs",
     "import": "node scripts/import-from-server.mjs",
-    "heal": "node scripts/heal.mjs"
+    "heal": "node scripts/heal.mjs",
+    "verify": "node scripts/verify.mjs"
   }
 }

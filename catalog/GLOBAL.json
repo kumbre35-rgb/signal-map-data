@@ -120,7 +120,7 @@
 {"id":"iptv:u:-1-1-","src":"iptv","n":"Россия 1 (+1)","lvl":"none","streams":[{"u":"https://vgtrkregion-reg.cdnvideo.ru/vgtrk/1/russia1-hd/index.m3u8","q":"1080p","t":"Россия 1 (+1)"}]},
 {"id":"iptv:u:-1-2-","src":"iptv","n":"Россия 1 (+2)","lvl":"none","streams":[{"u":"https://vgtrkregion-reg.cdnvideo.ru/vgtrk/2/russia1-hd/index.m3u8","q":"1080p","t":"Россия 1 (+2)"}]},
 {"id":"iptv:u:-1-3-","src":"iptv","n":"Россия 1 (+3)","lvl":"none","streams":[{"u":"https://vgtrkregion-reg.cdnvideo.ru/vgtrk/3/russia1-hd/index.m3u8","q":"1080p","t":"Россия 1 (+3)"}]},
-{"id":"iptv:u:-2","src":"iptv","n":"百事通体育2","lvl":"none","streams":[{"u":"http://epg.112114.xyz/douyu/2793084","t":"欧美大片2"},{"u":"http://112.25.48.68/live/program/live/hdnba2/4000000/mnf.m3u8","q":"1080p","t":"百事通体育2"}]},
+{"id":"iptv:u:-2","src":"iptv","n":"百事通体育2","lvl":"none","streams":[{"u":"http://112.25.48.68/live/program/live/hdnba2/4000000/mnf.m3u8","q":"1080p","t":"百事通体育2"},{"u":"http://epg.112114.xyz/douyu/2793084","t":"欧美大片2"}]},
 {"id":"iptv:u:-2-","src":"iptv","n":"张家界2台","lvl":"none","streams":[{"u":"http://stream.zjjrtv.com/zjjtv2/hd/live.m3u8","q":"240p","t":"张家界2台"}]},
 {"id":"iptv:u:-3","src":"iptv","n":"徐州-3","lvl":"none","streams":[{"u":"http://epg.112114.xyz/douyu/9249162","t":"欧美大片3"},{"u":"http://183.207.249.7/PLTV/3/224/3221225949/index.m3u8","q":"1080p","t":"徐州-3"},{"u":"http://223.110.245.151/ott.js.chinamobile.com/PLTV/3/224/3221225949/index.m3u8","q":"1080p","t":"徐州-3"},{"u":"http://112.25.48.68/live/program/live/hdnba3/4000000/mnf.m3u8","q":"1080p","t":"百事通体育3"}]},
 {"id":"iptv:u:-3-","src":"iptv","n":"上虞3新商都","lvl":"none","streams":[{"u":"https://l.cztvcloud.com/channels/lantian/SXshangyu3/720p.m3u8","q":"720p","t":"上虞3新商都"}]},

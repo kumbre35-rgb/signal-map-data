@@ -36,6 +36,13 @@ for (const it of items) {
   byCountry.get(cc).push(ch);
 }
 
+// Verdicts written by scripts/verify.mjs live in the catalog; a re-import must not erase them.
+const prior = new Map();
+for (const f of fs.existsSync(CATALOG) ? fs.readdirSync(CATALOG).filter((x) => x.endsWith('.json')) : []) {
+  try { for (const c of JSON.parse(fs.readFileSync(path.join(CATALOG, f), 'utf8'))) if (c.ok !== undefined) prior.set(c.id, { ok: c.ok, okAt: c.okAt }); } catch { /* skip */ }
+}
+for (const list of byCountry.values()) for (const ch of list) { const p = prior.get(ch.id); if (p) Object.assign(ch, p); }
+
 fs.mkdirSync(CATALOG, { recursive: true });
 let total = 0;
 for (const [cc, list] of [...byCountry].sort()) {

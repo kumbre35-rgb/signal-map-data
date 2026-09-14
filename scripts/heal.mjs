@@ -33,7 +33,11 @@ for (const v of verdict.values()) {
   if (v.ok !== 1 || !v.streams?.length) continue;
   const key = `${norm(v.n)}|${v.c || ''}`;
   if (norm(v.n).length < 3) continue;
-  const s = v.streams[v.oki || 0];
+  // The working-link index can occasionally point past the stream list (a
+  // probe/derived-stream mismatch); fall back to the first stream, and skip the
+  // channel entirely if there's still nothing usable.
+  const s = v.streams[v.oki] || v.streams[0];
+  if (!s || !s.u) continue;
   if (!alive.has(key)) alive.set(key, []);
   alive.get(key).push({ u: s.u, ...(s.ua ? { ua: s.ua } : {}), ...(s.ref ? { ref: s.ref } : {}), t: `via ${v.src}` });
 }

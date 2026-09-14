@@ -1,6 +1,6 @@
 {
-  "built": "2026-09-14T19:39:59.930Z",
-  "base": "https://cdn.jsdelivr.net/gh/kumbre35-rgb/signal-map-data@main/",
+  "built": "2026-09-14T19:40:23.557Z",
+  "base": "https://cdn.jsdelivr.net/gh/kumbre35-rgb/signal-map-data@346c28e3276ef6de7619447c3eefdd0b0e70a402/",
   "chunks": {
     "AD": "974e3127",
     "AE": "afc08132",
